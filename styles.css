@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    font-family: 'Lato', sans-serif;
+}
+
+#Heading {
+    margin-bottom: 100px;
+    font-size: 100px;
+}
+
+#board {
+  padding-top: 3em;
+  text-align: center;
+}
+
+.row {
+
+    width: 604px;
+    margin: auto;
+    height: 100px;
+    clear: both;
+}
+
+.row > div {
+width: 200px;
+height: 200px;
+float: left;
+font-size: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.row > div:hover {
+    cursor: pointer;
+}
+
+.top {
+border-bottom: 2px solid black;
+}
+
+.bottom {
+border-top: 2px solid black;
+}
+
+.left {
+border-right: 2px solid black;
+}
+
+.right {
+border-left: 2px solid black;
+}
+
+
+#winCheck {
+    font-size: 100px;
+}
+
+#reset {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+}
+
+#reset:hover {
+    background-color: lightblue;
+    cursor: pointer;
+
+}
+
